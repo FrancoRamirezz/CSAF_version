@@ -6,8 +6,8 @@ import Contact from "./Contact";
 import ShoppingCart from "./shoppingcart";
 import { Routes, Route, Link, BrowserRouter, NavLink, createBrowserRouter, createRoutesFromElements} from 'react-router-dom';
 import { Navbar } from 'react-bootstrap';
-const logo_cf = "MISSA Ecomerce Project "
-const image = 'https://www.calpolymissa.org/img/Missa+Logo.png'
+const logo_cf = "MISSA Ecomerce Project ";
+const image = 'https://www.calpolymissa.org/img/Missa+Logo.png';
 
 //Call the other componets using from then the names of the componets
 function App() {
