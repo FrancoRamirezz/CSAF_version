@@ -13,12 +13,26 @@ An introduction to the CSAF design. The frontend will mostly consist of React an
 To ensure installation is done correctly, you need to type "npx Create-react-app" in your terminal. If there is an error regarding "NPM" installation, downloading NodeJs on your local computer will solve this issue. Once, you run this command in the terminal you should see files that state Public, Src - which contains the file "App.js" and "App.css". Note: to ensure this runs smoothly, cd into the directory that you used to name the app. For example, I used "create-react-app csaf-app" and then cd into it to run it. Also, the node_moldues won't be present when downloading it, so run npm install and then npm run start.
 
 ## Installation Backend 🫡
-As for the backend aspect of the project, type in the terminal "npm install firebase" and you should see it begin to download. If there is an error regarding "npm firebase", then that means you must download nodejs  on your local computer. Once that is done, then you should be able to import Firebase and not get a yellow line depending on your chosen IDE
+As for the backend aspect of the project, type in the terminal "npm install firebase" and you should see it begin to download. If there is an error regarding "npm firebase", then that means you must download nodejs  on your local computer. Once that is done, you should be able to import Firebase and not get a yellow line depending on your chosen IDE
 
 ## Features  🎮
 - Feature 1: Use React to build a responsive website for the project
 - Feature 2: Use Flask and build an API to connect React to the backend and Firebase
 - Feature 3: Use Firebase infrastructure to help host the e-commerce website and provide all the resources needed for the project
+- Feature 4: Issues: to fix the babel issue
+npm install --save-dev @babel/plugin-proposal-private-property-in-object then try
+then go into the package lock json.
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-proposal-private-methods",
+    "@babel/plugin-proposal-private-property-in-object"
+  ]
+}
 
 ## Contributing
 To ensure this project develops in a correct manner, it is essential for the frontend to connect well to the backend
