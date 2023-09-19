@@ -1,6 +1,6 @@
 # CSAF E-commerce Website
 
-An introduction to the CSAF design. The frontend will mostly consist of React and as for the backend, it will consist of Firebase and Flask
+An introduction to the CSAF design. The frontend will mostly consist of React and as for the backend, it will consist of Firebase.
 ## Table of Contents 🤖
 - [Installation Frontend](#installation)
 - [Installation Backend](#usage)
