@@ -21,7 +21,7 @@ As for the backend aspect of the project, type in the terminal "npm install fire
 - Feature 3: Use Firebase infrastructure to help host the e-commerce website and provide all the resources needed for the project
 - Feature 4: Issues: to fix the babel issue
 npm install --save-dev @babel/plugin-proposal-private-property-in-object then try
-then go into the package lock json.
+then go into the package-lock JSON.
 {
   "presets": [
     "@babel/preset-env",
@@ -33,7 +33,24 @@ then go into the package lock json.
     "@babel/plugin-proposal-private-property-in-object"
   ]
 }
-
+- Feature 5: To ensure that the dependencies are correct, inside the package-lock.json it should look like this
+-  npm install react-router-dom, npm install react-icons, npm install firebase, npm react-bootstrap
+   "name": "csaf-app",
+      "version": "0.1.0",
+      "dependencies": {
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "bootstrap": "^5.3.1",
+        "firebase": "^10.3.1",
+        "react": "^18.2.0",
+        "react-bootstrap": "^2.8.0",
+        "react-dom": "^18.2.0",
+        "react-icons": "^4.11.0",
+        "react-router-dom": "^6.15.0",
+        "react-scripts": "5.0.1",
+        "web-vitals": "^2.1.4"
+  
 ## Contributing
 To ensure this project develops in a correct manner, it is essential for the frontend to connect well to the backend
 
