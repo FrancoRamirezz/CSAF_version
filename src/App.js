@@ -11,36 +11,33 @@ const image = 'https://www.calpolymissa.org/img/Missa+Logo.png';
 
 //Call the other componets using from then the names of the componets
 function App() {
+function App() {
   return (
-    //Make a router component to connect the home to the navbar and then the shopping cart
+    // make a router compoment to connect the home to the navbar and then the shopping cart
     <BrowserRouter>
     <div className="App">
       <header className="App-header">
         <h1>{logo_cf}</h1>
-        <img src   className="App-logo" alt="logo" />
-        <nav className='App-link'>
-          <Link to ="/Homepage">Click This Link</Link>
-        
+        <img src={image} className="App-logo" alt="logo" />
+        <nav className="App-link">
+          <Link to="/Homepage">Click This Link</Link>
         </nav>
-        
+
         <main>
-        <Routes>
-           <Route path = "/Homepage" element = {<Homepage/>}>
-          <Route path = 'Navabr' element = {<Navbar/>}>
-          <Route path = "About" element = {<About/>}> 
-
-          </Route>
-          </Route>
-          </Route>
+          <Routes>
+            <Route path="/Homepage" element={<Homepage />} />
+            <Route path="/Navbar" element={<Navbar />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
           </Routes>
-
         </main>
-  
-      
+
+        <footer>2023 E-commerce Store</footer>
       </header>
     </div>
   </BrowserRouter>
-  );
+  )
 }
 
 export default App;
+
