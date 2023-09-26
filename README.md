@@ -15,6 +15,7 @@ To ensure installation is done correctly, you need to type "npx Create-react-app
 ## Installation Backend 🫡
 As for the backend aspect of the project, type in the terminal "npm install firebase" and you should see it begin to download. If there is an error regarding "npm firebase", then that means you must download nodejs  on your local computer. Once that is done, you should be able to import Firebase and not get a yellow line depending on your chosen IDE. As for dependencies, for the react-router plz install "npm install react-router" and "npm install firebase and firebase-tools". Also, to ensure it runs correctly, make a firebase.js file, which contains the best method to authorize the app. Here are the links for the following. Follow them to deploy if needed
 https://firebase.google.com/docs/hosting/test-preview-deploy
+  
 https://firebase.google.com/docs/hosting/github-integration
 
 
