@@ -1,16 +1,18 @@
 import './App.css';
 import Homepage from './Homepage';
 import About from './About';
-import Navabr from './Navbar';
-import Contact from "./Contact";
+import Navbar from './Navbar';
 import ShoppingCart from "./shoppingcart";
+import Contact from "./Contact";
+import LoginForm from "./LoginForm";
+//import {BsFillFilterCircleFill} from 'react-icons/fa' ;
 import { Routes, Route, Link, BrowserRouter, NavLink, createBrowserRouter, createRoutesFromElements} from 'react-router-dom';
-import { Navbar } from 'react-bootstrap';
-const logo_cf = "MISSA Ecomerce Project ";
+;
+const logo_cf = "Welcome to Our E-commerce Store ";
 const image = 'https://www.calpolymissa.org/img/Missa+Logo.png';
 
-//Call the other componets using from then the names of the componets
-function App() {
+
+// call the other compoments using from then the name of the compoments
 function App() {
   return (
     // make a router compoment to connect the home to the navbar and then the shopping cart
@@ -40,4 +42,3 @@ function App() {
 }
 
 export default App;
-
