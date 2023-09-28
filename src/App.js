@@ -31,6 +31,7 @@ function App() {
             <Route path="/Navbar" element={<Navbar />} />
             <Route path="/About" element={<About />} />
             <Route path="/Contact" element={<Contact />} />
+            <Route path ="/LoginForm" component = {<LoginForm/>}/>
           </Routes>
         </main>
 
