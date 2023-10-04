@@ -22,7 +22,7 @@ https://firebase.google.com/docs/cli?authuser=0#sign-in-test-cli
 
 ## Features  🎮
 - Feature 1: Use React to build a responsive website for the project
-- Feature 2: Use Flask and build an API to connect React to the backend and Firebase
+- Feature 2: Use to connect React to the backend and Firebase
 - Feature 3: Use Firebase infrastructure to help host the e-commerce website and provide all the resources needed for the project
 - Feature 4: Issues: to fix the babel issue
 npm install --save-dev @babel/plugin-proposal-private-property-in-object then try
