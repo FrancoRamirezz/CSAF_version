@@ -61,7 +61,7 @@ To ensure this project develops in a correct manner, it is essential for the fro
 
 
 ## Acknowledgments 🥇
-The entire CSAF team 
+Me and the entire CSAF team 
 
 ## Support and Contact
 
