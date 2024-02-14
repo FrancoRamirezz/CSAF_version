@@ -1,31 +1,35 @@
-import { Link } from "react-router-dom";
-import "./App.css";
+import { useState } from "react";
 
-const Contact = () =>{
+function contact(){
 
+const [name, setName] = useState('');
+const [email, setEmail] = useState('');
+const [message, setMessage] = useState('');
 
+const onSumbit= () =>{
+
+}
 return(
 <div>
+<h1>Contact Us </h1>
 
-        <h1>Contact page</h1>
-        <h2> Here is the follwoing link for my github </h2 >
-        
-        <ul>
-       <li>
+<p>Glad that you can join us! If you need have any questions, or want to connect. Then you can reach out by email address </p>
+<form>
 
-            Franco's Github is here
-            <nav a herf= "https://github.com/FrancoRamirezz"> Click the followinglink </nav>
-        </li >
-       
+<input value = {name} type = 'text' placeholder = "Name"
+onClick={e =>name }/>
+
+<input value = {email} type = "text" placeholder = "Email"/>
+<input value = {message} type = 'text' placeholder="Message"/>
 
 
-        </ul>
 
+</form>
 
 
 
 </div>
-
-);
+)
 };
+export default contact;
 export default Contact;
